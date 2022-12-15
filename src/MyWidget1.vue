@@ -5,6 +5,11 @@ import Counter from "./Counter.vue";
 <template>
   <div id="myWidget1">
     <h1 class="title">My Widget 1</h1>
+    <button
+      class="rounded-full p-2 bg-red-500 border border-red-700 mb-2 color-red-300 font-bold hover:bg-red-600"
+    >
+      TailWind CSS
+    </button>
     <Counter />
   </div>
 </template>
