@@ -3,6 +3,9 @@ import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
   plugins: [
-    vue(),
+    vue({
+      customElement: true
+    }),
   ],
+  build: { target: "esnext" }
 })
